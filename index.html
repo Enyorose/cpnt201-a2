@@ -4,16 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <title>Big Ol' Images</title>
 </head>
 <body>
   <section>
-    <img src="#" alt="">
-    <img src="#" alt="">
-    <img src="#" alt="">
-    <img src="#" alt="">
-    <img src="#" alt="">
-    <img src="#" alt="">
+    <img src="assets/images/md/julia-md.jpg" alt="Photo of a long haired dog"
+      srcset="assets/images/sm/julia-sm.jpg 340w, 
+      assets/images/md/julia-md.jpg 780w, 
+      assets/images/lg/julia-lg.jpg 960w" 
+      sizes="(min-width= 960px) 80vw, 
+      (min-width= 680px) 90vw, 100vw"
+    >
+    <img src="assets/images/md/oscar-md.jpg" alt="Photo of a long haired black and white dog"
+      srcset="assets/images/sm/oscar-sm.jpg 340w, 
+      assets/images/md/oscar-md.jpg 780w, 
+      assets/images/lg/oscar-lg.jpg 960w" 
+      sizes="(min-width= 960px) 80vw, 
+      (min-width= 680px) 90vw, 100vw"
+    >
+    <img src="assets/images/md/sadie-md.jpg" alt="Photo of a long haired dog"
+      srcset="assets/images/sm/sadie-sm.jpg 340w, 
+      assets/images/md/sadie-md.jpg 780w, 
+      assets/images/lg/sadie-lg.jpg 960w" 
+      sizes="(min-width= 960px) 80vw, 
+      (min-width= 680px) 90vw, 100vw"
+    >
   </section>
 </body>
 </html>
