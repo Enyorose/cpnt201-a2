@@ -2,8 +2,8 @@
 - Jessica Watson
 
 ## My Links
-- My Deployed Page [link]( https://enyorose.github.io/cpnt201-a2/)
-- 
+- My Deployed Page [link](https://enyorose.github.io/cpnt201-a2/)
+- My Repo Link [link](https://github.com/Enyorose/cpnt201-a2)
 
 ## Attributions
 ```
